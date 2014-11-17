@@ -2,81 +2,88 @@ body {
 	margin: 0;
 	padding: 0;
 	font: normal 100%/1.5 Georgia,serif;
-	background-color: #c7c0ae;
-}
-
-img {
-	display: block;
-	margin: 0 auto;  /* with left and right margins auto means center*/ 
+	background-color: white;
 }
 
 section {
 	padding: 10rem 0;
 }
 
-
-.sun {
-	width: 300px; 	
+/* -------------------------------------- Header --------------------------------------------*/
+header {
+	background-color:#232323;
+	padding: 15px;
 }
 
-.sun-section {
-	background: transparent url("../img/mars-pano.jpg") no-repeat center top;
-	background-size: cover;
+header img {
+	width: 9rem;	
+	position: absolute;
+	top: -1px;
+	left: 10%;
 }
 
-.dipper {
-	width: 200px;	
-	opacity: 0;
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10rem;
+	text-align: right;
 }
 
-
-.js-dipper-fade {
-	-webkit-animation: dipper-fade 1s linear forwards;	
-}
-
-@-webkit-keyframes dipper-fade {
-	0% {
-	opacity: 0; 	
-	}
-	
-	100% {
-		opacity: 1;	
-	}
+.nav-bar li {
+	display: inline;
 	
 }
 
-.shuttle-section {
-	background-color:#FF9700;
+a:link, a:visited {
+	text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;	
+	padding: 5px;
+	margin: 3px;
 }
 
-.shuttle {
-	width: 200px;	
-	opacity: 0; 
+
+/*--------------------------------Quote Section --------------------------------*/ 
+
+.quote-section {
+	background-color: #bbd532;
 }
 
-
-.js-shuttle-fade {
-	-webkit-animation: shuttle-fade 1s linear forwards;	
+.quote-section div {
+	text-align: center;
+	font-size: 28px;
+	width: 60%;
+	margin: 0 auto;
+	position:relative;
 }
 
-@-webkit-keyframes shuttle-fade {
+.quote-section blockquote {
+	margin: 0;
+	display: inline;	
+}
+
+cite {
+	display: block;	
+	text-align:right;
+}
+/* .quote-section blockquote:before {
+	content:'\201C';	
+	position:absolute;
+	left:-40px;
+	top:-40px;
 	
-	0% {
-		opacity: 0;
-		transform: translateY(110px);
-	}
-	
-	100% { 
-		opacity: 1;
-
-	}
-	
 }
 
+.quote-section blockquote:after {
+	content:'\201D';	
+	position:absolute;
+	right:-40px;
+	bottom:-60px;
+}
 
-
-
-
-
-
-
+.quote-section blockquote:before,
+.quote-section blockquote:after {
+	font-size:2em;
+}
+*/
