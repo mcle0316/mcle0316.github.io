@@ -97,30 +97,28 @@ cite {
 
 .about-section {
 	background-color:#DCDCDC;
-	padding: 5rem 5rem;
+	padding: 5rem 0;
 }
 
 .about-type {
 	width: 60%;
-	margin-right: 10%; 
-	float:right;
+	margin-right: 10%;
+	float: right;
+	top: -25px;
 	
+}
+
+.about-section h2 {
+	margin: 0;	
 }
 
 .self-image {
 	margin-left: 8%;
 	width: 18%;
-	min-width: 200px;
+	
 		
 }
 
-.info-icon {
-	display: inline;
-	width: 100px; 
-}
-.info-icon img {
-	margin: 30px;
-}
 
 /*-------------------------------Portfolio Section--------------------------------------*/ 
 
@@ -163,13 +161,27 @@ cite {
 .portfolio-details {	
 	background:#ddd;
 	display:none;
-	padding:2rem 5rem;
+	padding: 5rem 2rem;
 	position:relative;
 }
 
+.port-description {
+	width: 36%;
+	margin-right: 10%;
+	float: right;
+	top: -25px;	
+}
+
+.portfolio-details img {
+	width: 50%;
+}
+
+.portfolio-details h4 {
+	margin: 0;
+}
 .portfolio-details .portfolio-item {
 	line-height:2em;
-	width:60%;
+	width:70%;
 	margin:0 auto;
 	display:none;
 }
