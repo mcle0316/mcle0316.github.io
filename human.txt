@@ -1,0 +1,21 @@
+# TEAM
+
+Designer and developer: Jenna McLean
+site: jennamclean.ca
+email: hey@jennamclean.ca
+github: http://github.com/mcle0316
+Location: Ottawa, ON 
+
+---
+
+# THANKS
+
+Slideshow from some person <www.website.com> 
+Big Image copyright another image
+
+
+#TECHNOLOGY 
+-
+-dreamweaver
+-Github
+-Hover.com
