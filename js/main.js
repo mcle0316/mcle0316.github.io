@@ -13,6 +13,11 @@ $(document).ready(function() {
 			$('.portfolio-details').slideDown();
 		}
 		
+		$.smoothScroll({
+	      scrollTarget: '#portfolio-details',
+		  offset: -54
+	    });
+		
 		return false;
 		
 	});
