@@ -15,7 +15,7 @@ $(document).ready(function() {
 		
 		$.smoothScroll({
 	      scrollTarget: '#portfolio-details',
-		  offset: -54
+		  offset: -70
 	    });
 		
 		return false;
@@ -33,6 +33,16 @@ $(document).ready(function() {
 	$('.nav-bar a').smoothScroll({ offset: -54 });
 	// END - Smooth scroll in header links
 	
+});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 700) {
+        $(".top-bar").addClass("scrolling");
+    } else {
+        $(".top-bar").removeClass("scrolling");
+    }
 });
 
 $(document).ready(function() {
