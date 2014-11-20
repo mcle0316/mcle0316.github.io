@@ -30,7 +30,7 @@ $(document).ready(function() {
 	// END - Portfolio section	
 	
 	// Smooth scroll in header links
-	$('.nav-bar a').smoothScroll({ offset: -54 });
+	$('.nav-bar a').smoothScroll({ offset: -80 });
 	// END - Smooth scroll in header links
 	
 });

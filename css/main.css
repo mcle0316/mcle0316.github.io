@@ -1,3 +1,18 @@
+/* colors:
+	green: #beea06;
+	teal: #05ced3;
+	light teal: edf9f9;
+	dark brown: #3a2f2c;
+	brown: #534741;
+	light brown: #eaeaea;
+	
+	
+*/
+	
+
+
+
+
 body {
 	margin: 0;
 	padding: 0;
@@ -8,11 +23,16 @@ body {
 h1 {
 	margin: 0 auto;
 	text-align: center;
-	font-size: 50px;
+	font-size: 3rem;
 }
 
 h2 {
 	text-align: center;	
+	font-size: 2rem;
+}
+
+h3 {
+	1.5rem;	
 }
 
 
@@ -23,7 +43,7 @@ h2 {
 */
 /*-------------------------------------- Header --------------------------------------------*/
 .top-bar {
-	background-color: rgba(33,33,33,.9);
+	background-color: rgba(58,47,43,.95);
 	padding: 28px 15px;
 	position:fixed;
 	width: 100%;
@@ -59,8 +79,7 @@ h2 {
 
 a:link, a:visited {
 	text-decoration: none;
-    font-weight: bold;
-    color: #EEFCFF;
+    color: #beea06;
 	text-align: center;	
 	padding: 5px;
 	margin: 3px;
@@ -78,8 +97,8 @@ a.menu-link {
 	margin: 0 auto; 
 	display: block;
 	padding: 9rem 5rem;
-	color: #fcf0f2;
-	background-color: #ed1557;
+	color: #3a2f2c;
+	background-color: #beea06;
 
 }
 
@@ -95,7 +114,7 @@ a.menu-link {
 /*--------------------------------Quote Section --------------------------------*/ 
 
 .quote-section {
-	background-color: #fcf0f2;
+	background-color: #beea06;
 	padding: 10rem 5rem;
 }
 
@@ -110,14 +129,14 @@ a.menu-link {
 .quote-section blockquote {
 	margin: 0;
 	display: inline;	
-	color: 0d2347;
+	color: #534741;
 }
 
 cite {
 	display: block;	
 	text-align:right;
 	margin-top: 16px;
-	color: #ed1557;
+	color: #534741;
 }
 
 
@@ -135,14 +154,14 @@ cite {
 	width: 50%;
 	margin-right: 10%;
 	float: right;
-	color: #fcf0f2;
+	color: #edf9f9;
 	line-height: 2rem;
 	
 }
 
 .about-section h2 {
 	margin: 0;
-	color: #ed1557;	
+	color: #05ced3;
 }
 
 
@@ -154,7 +173,8 @@ cite {
 /*-------------------------------Portfolio Section--------------------------------------*/ 
 
 .portfolio-header {
-	background-color: #7B7B7B;
+	background-color: #534741;
+	color: #05ced3;
 	text-align:center;
 	padding: 2rem 0 2rem;
 	
@@ -164,14 +184,17 @@ cite {
 		
 }
 .portfolio-work {
-	background-color:#7B7B7B;
-	padding: 3rem 5rem;
+	background-color:#534741;
+	padding: 3rem 3rem;
+	text-align: center;
 	
 }
 
 .portfolio-work a {
 	display: inline-block;
 	text-align: center;
+	margin: 0 auto;
+	color: #05ced3;
 }
 
 .portfolio-work img {
@@ -190,10 +213,11 @@ cite {
 }
 
 .portfolio-details {	
-	background:#ddd;
+	background:#eaeaea;
 	display:none;
 	padding: 3rem 2rem;
 	position:relative;
+	color: #3a2f2c;
 }
 
 .port-description {
@@ -222,6 +246,7 @@ cite {
 
 .portfolio-details #close-portfolio {
 	position:absolute;
+	width: 50px;
 	top:40px;
 	right:40px;
 }
@@ -324,7 +349,8 @@ footer p {
 	
 	
 	.landing-page {
-		line-height: 3rem;	
+		line-height: 3rem;
+		text-align: center;
 	}
 	
 	.landing-page img{
