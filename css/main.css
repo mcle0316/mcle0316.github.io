@@ -46,7 +46,7 @@ h3 {
 */
 /*-------------------------------------- Header --------------------------------------------*/
 .top-bar {
-	background-color: rgba(255,255,255,0.90);
+	background-color: rgba(255,255,255,0.95);
 	padding: 28px 15px;
 	position:fixed;
 	width: 100%;
@@ -121,27 +121,15 @@ a.menu-link {
 .quote-section {
 	background-color: #beea06;
 	padding: 10rem 5rem;
-}
-
-.quote-section div {
-	text-align: center;
-	font-size: 28px;
-	width: 60%;
 	margin: 0 auto;
-	position:relative;
 }
 
-.quote-section blockquote {
-	margin: 0;
-	display: inline;	
-	color: #534741;
-}
 
-cite {
-	display: block;	
-	text-align:right;
-	margin-top: 16px;
-	color: #534741;
+.quote-section img{
+	width: 200px;
+	display: inline;
+	margin: 10px;
+	
 }
 
 
@@ -157,6 +145,7 @@ cite {
 .about-type {
 	width: 50%;
 	margin-right: 10%;
+	margin-top: 70px;
 	float: right;
 	color: #272727;
 	line-height: 2rem;
@@ -165,11 +154,13 @@ cite {
 
 .about-section h2 {
 	margin: 0;
-	color: #01b9ae;
+	color: #ed4c54;
 }
 
 .about-img {
-	margin-left: 7.5rem;	
+	margin-left: 10rem;	
+	width: 250px;
+	top: -10px;
 }
 
 .mobile {
@@ -180,7 +171,7 @@ cite {
 /*-------------------------------Portfolio Section--------------------------------------*/ 
 
 .portfolio-header {
-	background-color: #01b9ae;
+	background-color: #b5e5e1;
 	color: white;
 	text-align: center;
 	padding: 2rem 0 2rem;
@@ -191,7 +182,7 @@ cite {
 		
 }
 .portfolio-work {
-	background-color:#01b9ae;
+	background-color:#b5e5e1;
 	padding: 3rem 3rem;
 	text-align: center;
 	
@@ -275,9 +266,7 @@ cite {
 }
 
 
-contact-section img{
-	width: 20%;	
-}
+
 
 .contact-section h2 {
 	text-align: center;	
