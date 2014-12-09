@@ -10,8 +10,7 @@ Location: Ottawa, ON
 
 # THANKS
 
-Slideshow from some person <www.website.com> 
-Big Image copyright another image
+
 
 
 #TECHNOLOGY 

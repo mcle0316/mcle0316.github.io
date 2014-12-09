@@ -103,4 +103,6 @@
 </g>
 <text transform="matrix(1 0 0 1 383.3309 77.2645)" fill="#ED4C54" font-family="'Raleway'" font-size="41">Oops! Something went wrong. </text>
 <text transform="matrix(1 0 0 1 424.5948 135.086)" fill="#F2E6E1" font-family="'Raleway'" font-size="38">Error 404 - Page Not Found</text>
+<ellipse fill="#1A1A1A" cx="-210.9" cy="83.2" rx="33" ry="33.8"/>
+<ellipse fill="#E6E6E6" cx="-204.1" cy="172.8" rx="39.7" ry="22.3"/>
 </svg>
