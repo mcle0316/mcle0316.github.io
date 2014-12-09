@@ -2,9 +2,7 @@
 /* CSS Document */
 
 body {
-	background:#BEF501;	
-}
-
-h1 {
-	text-align:center;	
-}
+	background-image: url(../img/error-page.svg);
+	background-size: cover;
+	}
+;

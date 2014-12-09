@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+<pattern  y="768" width="57" height="57" patternUnits="userSpaceOnUse" id="New_Pattern_2" viewBox="0 -57 57 57" overflow="visible">
+	<g>
+		<polygon fill="none" points="0,0 57,0 57,-57 0,-57 		"/>
+		<g>
+			<polygon fill="none" points="0,0 57,0 57,-57 0,-57 			"/>
+			<polyline fill="#ED4C54" points="57,0 57,-57 30.3,-57 30.3,-57 26.9,-57 26.9,-57 0,-57 0,0 27,0 			"/>
+			<polygon fill="#DE3C44" points="57,-27 57,-30 0,-30 0,-27 			"/>
+			<polygon fill="#DE3C44" points="30,0 30,-57 27,-57 27,0 			"/>
+		</g>
+	</g>
+</pattern>
+<pattern  y="768" width="27.7" height="27.7" patternUnits="userSpaceOnUse" id="New_Pattern_5" viewBox="4.2 -32 27.7 27.7" overflow="visible">
+	<g>
+		<polygon fill="none" points="4.2,-32 32,-32 32,-4.2 4.2,-4.2 		"/>
+		<path fill="#F2F2F2" d="M29.3-4.2c0,2.3-1.9,4.2-4.2,4.2s-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2S29.3-6.6,29.3-4.2z"/>
+		<path fill="#F2F2F2" d="M15.4-4.2c0,2.3-1.9,4.2-4.2,4.2S6.9-1.9,6.9-4.2s1.9-4.2,4.2-4.2S15.4-6.6,15.4-4.2z"/>
+		<path fill="#F2F2F2" d="M36.2-18.1c0,2.3-1.9,4.2-4.2,4.2s-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2S36.2-20.5,36.2-18.1z"/>
+		<path fill="#F2F2F2" d="M22.4-18.1c0,2.3-1.9,4.2-4.2,4.2s-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2S22.4-20.5,22.4-18.1z"/>
+		<path fill="#F2F2F2" d="M8.5-18.1c0,2.3-1.9,4.2-4.2,4.2S0-15.8,0-18.1s1.9-4.2,4.2-4.2S8.5-20.5,8.5-18.1z"/>
+		<path fill="#F2F2F2" d="M29.3-32c0,2.3-1.9,4.2-4.2,4.2s-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2S29.3-34.3,29.3-32z"/>
+		<path fill="#F2F2F2" d="M15.4-32c0,2.3-1.9,4.2-4.2,4.2S6.9-29.6,6.9-32s1.9-4.2,4.2-4.2S15.4-34.3,15.4-32z"/>
+	</g>
+</pattern>
+<pattern  id="SVGID_1_" xlink:href="#New_Pattern_2" patternTransform="matrix(1 0 0 -1 0 -16555)">
+</pattern>
+<polygon fill="url(#SVGID_1_)" points="47,60 49,60 49,60 "/>
+<g>
+	<rect x="-2.7" fill="#F5F5F5" width="1024" height="768"/>
+	<rect x="-2.7" fill="url(#New_Pattern_5)" width="1024" height="768"/>
+</g>
+</svg>

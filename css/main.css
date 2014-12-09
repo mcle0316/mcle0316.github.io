@@ -23,15 +23,16 @@ body {
 h1 {
 	margin: 0 auto;
 	text-align: center;
-	font-size: 3rem;
-	line-height: .5rem;
-	padding-top: 3rem;
+	font-size: 1.5rem;
+	padding-top: 1.5rem;
+	color: #f2f2f2;
 	
 }
 
 h2 {
 	text-align: center;	
 	font-size: 2rem;
+	
 }
 
 h3 {
@@ -51,7 +52,7 @@ h3 {
 	position:fixed;
 	width: 100%;
 	z-index: 10;
-	opacity: 1;
+	opacity: 0;
 
 }
 
@@ -74,6 +75,18 @@ h3 {
     margin: 0;
     padding: 0 10rem;
 	text-align: right;
+	
+}
+
+.nav-bar a {
+	-webkit-transition:border 0.2s ease-out;
+	transition:border 0.2s ease-out;
+	border-color:white;
+}
+
+.nav-bar a:hover {
+	border-bottom: solid 4px #01b9ae;
+	
 }
 
 .nav-bar li {
@@ -100,21 +113,26 @@ a.menu-link {
 .landing-page {
 	margin: 0 auto; 
 	display: block;
-	padding: 9rem 5rem;
+	padding: 2rem;
 	color: #3a2f2c;
-	background-color: #01b9ae;
+	background-image: url(../img/background-troll-hair.svg);
 	background-size: cover;
 
 }
 
 .landing-page img {
-	width: 320px;
+	width: 100px;
 	display: block;
 	margin: 0 auto;
 }
 
 
-
+.landing-page h2 {
+	font-size: 1rem;
+	color: #e6e6e6;	
+	margin: 0;
+	line-height: 1rem;
+}
 
 /*--------------------------------Quote Section --------------------------------*/ 
 
@@ -138,23 +156,23 @@ a.menu-link {
 /*-------------------------------About Section--------------------------------------*/ 
 
 .about-section {
-	background-color: white;
 	padding: 6rem 0;
+	background-image:url(../img/about-background.svg);
+	background-size: cover;
 }
 
 .about-type {
 	width: 50%;
-	margin-right: 10%;
-	margin-top: 70px;
-	float: right;
+	margin: 0 auto;
 	color: #272727;
 	line-height: 2rem;
+	
 	
 }
 
 .about-section h2 {
 	margin: 0;
-	color: #ed4c54;
+	color: #01b9ae;
 }
 
 .about-img {
@@ -170,19 +188,10 @@ a.menu-link {
 
 /*-------------------------------Portfolio Section--------------------------------------*/ 
 
-.portfolio-header {
-	background-color: #b5e5e1;
-	color: white;
-	text-align: center;
-	padding: 2rem 0 2rem;
-	
-}
-.portfolio-header h2{
-		margin: 0;
-		
-}
+
+
 .portfolio-work {
-	background-color:#b5e5e1;
+	background-color: #01b9ae;
 	padding: 3rem 3rem;
 	text-align: center;
 	
@@ -192,11 +201,11 @@ a.menu-link {
 	display: inline-block;
 	text-align: center;
 	margin: 0 auto;
-	color: white;
+	color: #01b9ae;
 }
 
 .portfolio-work img {
-	margin: 10px;
+	margin: 0;
 	filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
@@ -254,7 +263,7 @@ a.menu-link {
 
 .contact-section {
 	background-color: white;
-	padding: 5rem 5rem;	
+	padding: 3rem 5rem;	
 	text-align:center;
 	color: #01b9ae;
 }
@@ -276,7 +285,7 @@ a.menu-link {
 /*------------------------------Footer------------------------------*/
 
 footer {
-	background-color:#1B1A1A;
+	background-color: #1a1a1a;
 	padding: 2rem;
 }
 
@@ -293,11 +302,6 @@ footer p {
 		margin: 0 auto;
 	}
 	
-	.about-section {
-	background: url(../img/blur-self-image.jpg);
-	background-size: cover;
-	padding: 3rem 0;
-	}
 
 	
 	.portfolio-work {
@@ -311,10 +315,11 @@ footer p {
 	text-align:center;
 	margin: 0 auto;
 	float: none;
+	padding: 0;
 	}
 
 	.portfolio-details img {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	display: block;
 	}
@@ -334,6 +339,10 @@ footer p {
 	
 	.portfolio-details img {
 		width: 45%;	
+	}
+	
+	.contact-section {
+		padding: 0;	
 	}
 	
 }
