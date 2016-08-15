@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1 {
+	font: bold 100%/1.5 'Raleway', sans-serif;
+	font-size: 3.5rem;
+	color: white;
+	}
+
+p {
+	font: normal 100%/1.5 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	color: white;
+}
+
+.warning {
+	text-align: center;
+	padding: 5%;
+	
+}
+
+.background {
+	background-color:rgba(255,255,255,.70);
+	width: 20%;
+	margin: auto;
+	
+}
+
+body {
+	background-image: url(../img/alberta.jpg);
+	background-size: cover ;
+	background-repeat:no-repeat;
+	padding-top: 10%;
+}
+
+
+h4 {
+	color: white;	
+	text-decoration: none;
+}
+
+.contact-section {
+	padding: 3rem 5rem;	
+	text-align:center;
+	color: #01b9ae;
+}
+
+.contact-section a {
+	display: inline-block;
+	text-align: center;
+	margin: 30px;	
+	text-decoration: none;
+	font: normal 100%/1.5 'Raleway', sans-serif;
+}
+
+
+
+
+.contact-section h2 {
+	text-align: center;	
+}
